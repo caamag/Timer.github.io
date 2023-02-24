@@ -1,0 +1,46 @@
+
+*
+{padding: 0px;
+margin: 0px;
+border: 0px;}
+
+html
+{font-size: 62.5%;
+font-family: arial;}
+
+body
+{background-color: rgb(37, 114, 152);}
+
+.container
+{background-color: white;
+width: 400px;
+margin: 0 auto;
+margin-top: 200px;
+padding: 50px;
+border-radius: 10px;
+border: 1.5px black solid;}
+
+.container h1
+{font-size: 2.8rem;
+text-align: center;}
+
+.container p 
+{font-size: 5.5rem;
+text-align: center;}
+
+.buttons button
+{margin-left: 10px;
+margin-right: 10px;
+font-size: 1.8rem;
+background-color:rgb(37, 114, 152);
+color: white;
+padding: 7px;
+border-radius: 5px;
+cursor: pointer;}
+
+.buttons .Iniciar
+{margin-left: 65px;}
+
+.pausado 
+{color: rgb(219, 25, 25);}
+
