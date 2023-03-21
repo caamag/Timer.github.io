@@ -6,12 +6,9 @@ const resetar = document.querySelector('.Resetar');
 
 
 iniciar.addEventListener('click', function(e){
-  clearInterval(timer); 
-  time.innerHTML = '00:00:00'; 
-  pontoInicial = 0; 
+  clearInterval(timer);
   contador(); 
   time.classList.remove('pausado'); 
-
 }); 
 
 
@@ -20,7 +17,6 @@ pausar.addEventListener('click', function(e){
   clearInterval(timer); 
   time.classList.add('pausado'); 
   iniciar.innerHTML = 'Retomar'; 
-  
 }); 
 
 
